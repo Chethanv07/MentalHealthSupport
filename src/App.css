@@ -1,0 +1,212 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Consultation Section */
+.consultation-section {
+    background-color: #f9f9f9;
+    padding: 25px 0;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* ✅ Adds shadow */
+}
+
+/* Button Styling */
+.book-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+.book-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Dashboard Section */
+.dashboard-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+/* Title & Welcome Text */
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dashboard-welcome {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.dashboard-card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.dashboard-btn {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-btn:hover {
+    background-color: #e0a800;
+}
+
+/* Games Section */
+.games-section {
+    padding: 50px 0;
+}
+
+/* Title & Description */
+.games-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.games-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Play Game Button */
+.games-btn {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.games-btn:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Daily Activities Section */
+.daily-activities-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Title & Description */
+.daily-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.daily-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Activity List */
+.daily-list {
+    list-style: none;
+    padding: 0;
+}
+
+.daily-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Claim Reward Button */
+.daily-btn {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+}
+
+.daily-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Custom Navbar */
+.custom-navbar {
+    background-color: #6c757d;
+    /* Secondary color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.4rem;
+    color: white !important;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Navbar Links Hover */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Navbar Icons */
+.navbar-nav .nav-link i {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}   
